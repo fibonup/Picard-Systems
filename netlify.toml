@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/P_Sys.html"
+status = 200
