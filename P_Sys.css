@@ -1,0 +1,30 @@
+body
+{
+	margin: auto;
+}
+
+#bandeau
+{
+	height: 100px;
+	background-color: rgb(14,99,156);
+}
+
+#presentation
+{
+	height: 700px;
+	background-color: cyan;
+	background-image: url(earth.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+#devise
+{
+	/* background-color: darkgrey; */
+	text-align: center;
+	color: rgba(255, 255, 255, 0.623);
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
