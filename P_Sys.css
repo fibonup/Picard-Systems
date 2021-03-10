@@ -16,7 +16,9 @@ body
 	height: 80px;
 	width: 80px;
 	border-radius: 80px;
-	background-color:thistle;
+	/* background-color:thistle; */
+	background-image: url("Fichiers/Logo.png");
+	background-size: 100%;
 }
 /* rgb(14,99,156) */
 
@@ -215,9 +217,11 @@ body
 	display: flex;
   	flex-direction: column;
 	box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.425);
+	cursor: pointer;
+
 	}
 
-#LeProjet:hover > #ImageProjet
+#LeProjet:hover > #ImageProjet1, #LeProjet:hover > #ImageProjet2, #LeProjet:hover > #ImageProjet3, #LeProjet:hover > #ImageProjet4, #LeProjet:hover > #ImageProjet5, #LeProjet:hover > #ImageProjet6, #LeProjet:hover > #ImageProjet7
 {
 	/* transform: scale(1.05);  */
 	transition: 300ms;
@@ -227,7 +231,7 @@ body
 }
 
 
-#ImageProjet
+#ImageProjet1, #ImageProjet2, #ImageProjet3, #ImageProjet4, #ImageProjet5, #ImageProjet6, #ImageProjet7
 {
 	background-color:#219ebc;
 	background-size:  100%;
@@ -240,7 +244,13 @@ body
 	transition: 300ms;
 }
 
-
+#ImageProjet1{background-image: url("Fichiers/piou.jpg");}
+#ImageProjet2{background-image: url("Fichiers/piem.jpg");}
+#ImageProjet3{background-image: url("Fichiers/prom.jpg");}
+#ImageProjet4{background-image: url("Fichiers/gros.jpg");}
+#ImageProjet5{background-image: url("Fichiers/frap.jpg");}
+#ImageProjet6{background-image: url("Fichiers/doom.jpg");}
+#ImageProjet7{background-image: url("Fichiers/urss.jpg");}
 
 
 
@@ -467,6 +477,8 @@ p
 	display: flex;
   	flex-direction: column;
 	box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.425);
+	cursor: pointer;
+
 	}
 
 #LeOrg:hover > #ImageOrg
@@ -577,16 +589,17 @@ p
 	display: flex;
   	flex-direction: column;
 	box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.425);
+	cursor: pointer;
 	}
 
-#LeClub:hover > #ImageClub
+#LeClub:hover > #ImageClub1, #LeClub:hover > #ImageClub2, #LeClub:hover > #ImageClub3, #LeClub:hover > #ImageClub4, #LeClub:hover > #ImageClub5
 {
 	background-size:  120%;
 	transition: 300ms;
 }
 
 
-#ImageClub
+#ImageClub1, #ImageClub2, #ImageClub3, #ImageClub4, #ImageClub5
 {
 	background-color:#ffc300;
 	background-size:  100%;
@@ -598,7 +611,11 @@ p
 	transition: 300ms;
 }
 
-
+#ImageClub1{background-image: url("Fichiers/squash.jpg");}
+#ImageClub2{background-image: url("Fichiers/pole.jpg");}
+#ImageClub3{background-image: url("Fichiers/boxe.jpg");}
+#ImageClub4{background-image: url("Fichiers/ConcurrenceD.jpg");}
+#ImageClub5{background-image: url("Fichiers/curling.jpg");}
 
 
 
