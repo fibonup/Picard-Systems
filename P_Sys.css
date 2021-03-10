@@ -850,7 +850,7 @@ p
 		/* height: 400px; */
 		/* background-color: #ffa200; */
 		background: -webkit-linear-gradient(-90deg, #0091ad, #023047);
-		margin-top: -300px;
+		margin-top: -400px;
 		border-radius: 40% 40% 0% 0%;
 		padding-top: 100px;
 		/* padding-bottom: 90px; */
@@ -923,7 +923,7 @@ p
 	
 	#Projets
 	{
-		padding: 60px;
+		padding: 0px;
 		padding-bottom: 150px;
 		/* height: 600px; */
 		background-color: white;
