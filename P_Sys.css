@@ -237,10 +237,10 @@ body
 	background-size:  100%;
 	/* background-image: url("ImageTest.jpg"); */
 	background-position: center;
-	margin: 15px;
+	margin: 20px;
 	border-radius: 20px;
-	width: 270px;
-	height: 270px;
+	width: 360px;
+	height: 360px;
 	transition: 300ms;
 }
 
@@ -581,7 +581,7 @@ p
 
 #LeClub
 {
-	width: 230px;
+	/* width: 230px; */
 	top: 0;
 	background-color: white;
 	margin-bottom: auto;
@@ -604,10 +604,11 @@ p
 	background-color:#ffc300;
 	background-size:  100%;
 	/* background-image: url("ImageTest.jpg"); */
-	background-position: center;margin: 15px;
+	background-position: center;
+	margin: 20px;
 	border-radius: 20px;
-	width: 200px;
-	height: 200px;
+	width: 260px;
+	height: 260px;
 	transition: 300ms;
 }
 
