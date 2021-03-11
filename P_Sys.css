@@ -237,10 +237,10 @@ body
 	background-size:  100%;
 	/* background-image: url("ImageTest.jpg"); */
 	background-position: center;
-	margin: 20px;
+	margin: 15px;
 	border-radius: 20px;
-	width: 360px;
-	height: 360px;
+	width: 270px;
+	height: 270px;
 	transition: 300ms;
 }
 
@@ -581,7 +581,7 @@ p
 
 #LeClub
 {
-	/* width: 230px; */
+	width: 230px;
 	top: 0;
 	background-color: white;
 	margin-bottom: auto;
@@ -605,10 +605,10 @@ p
 	background-size:  100%;
 	/* background-image: url("ImageTest.jpg"); */
 	background-position: center;
-	margin: 20px;
+	margin: 15px;
 	border-radius: 20px;
-	width: 260px;
-	height: 260px;
+	width: 200px;
+	height: 200px;
 	transition: 300ms;
 }
 
@@ -1031,7 +1031,7 @@ p
 	}
 	
 	
-	#ImageProjet
+	#ImageProjet1, #ImageProjet2, #ImageProjet3, #ImageProjet4, #ImageProjet5, #ImageProjet6, #ImageProjet7
 	{
 		background-color:#219ebc;
 		background-size:  100%;
@@ -1393,7 +1393,7 @@ p
 	}
 	
 	
-	#ImageClub
+	#ImageClub1, #ImageClub2, #ImageClub3, #ImageClub4, #ImageClub5
 	{
 		background-color:#ffc300;
 		background-size:  100%;
